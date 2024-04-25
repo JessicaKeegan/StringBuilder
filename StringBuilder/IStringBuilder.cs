@@ -35,14 +35,13 @@ public interface IStringBuilder
     ///
     /// </example>
     /// <param name="value"></param>
-    /// <returns></returns>
+    /// <returns>Index of the substring in contained, else returns -1</returns>
     int FirstIndexOf(String value);
 
     /// <summary>
     /// Return a new instance of a <c>StringBuilder</c> with the state reversed
     /// </summary>
-    /// <param name="value">The <c>string</c> to append as a new line to the state</param>
-    StringBuilder Reverse(string value);
+    StringBuilder Reverse();
 
     /// <summary>
     /// Get the state of the builder as a <c>string</c>

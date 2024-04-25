@@ -27,7 +27,7 @@ public class StringBuilder : IStringBuilder
     }
 
     /// <inheritdoc/>
-    public StringBuilder Reverse(string value)
+    public StringBuilder Reverse()
     {
         throw new NotImplementedException();
     }
