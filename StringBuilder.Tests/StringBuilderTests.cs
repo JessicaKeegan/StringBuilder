@@ -31,7 +31,6 @@ public class StringBuilderTests
         Assert.Equal("TestString!", sb.ToString());
     }
 
-
     [Fact]
     public void Given_String_When_CallingAppendLine_Then_CharacterGetsAppendedToTheEndOfTheStateWithANewLine()
     {
