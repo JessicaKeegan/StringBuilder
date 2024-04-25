@@ -1,6 +1,6 @@
 namespace StringBuilder.Tests;
 
-public class UnitTest1
+public class StringBuilderTests
 {
     [Fact]
     public void Given_String_When_CallingAppend_Then_StringGetsAppendedToTheEndOfTheState()
